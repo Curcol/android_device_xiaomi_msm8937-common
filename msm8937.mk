@@ -401,6 +401,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     hostapd \
     wpa_supplicant \
+    wifilogd \
     wpa_supplicant.conf
 
 PRODUCT_PACKAGES += \
@@ -411,6 +412,11 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(VENDOR_PATH)/wifi/firmware/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(VENDOR_PATH)/wifi/firmware/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_cfg.ini
+
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/configs/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+    $(VENDOR_PATH)/configs/hostapd.accept:system/etc/hostapd/hostapd.accept \
+    $(VENDOR_PATH)/configs/hostapd.deny:system/etc/hostapd/hostapd.deny
 
 # WiFi Display
 PRODUCT_BOOT_JARS += \
