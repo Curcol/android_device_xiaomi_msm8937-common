@@ -49,9 +49,7 @@ ifneq ($(TARGET_POWER_SET_FEATURE_LIB),)
     LOCAL_STATIC_LIBRARIES += $(TARGET_POWER_SET_FEATURE_LIB)
 endif
 
-ifeq ($(TARGET_USES_INTERACTION_BOOST),true)
-    LOCAL_CFLAGS += -DINTERACTION_BOOST
-endif
+LOCAL_CFLAGS += -DINTERACTION_BOOST
 
 ifneq ($(TARGET_POWERHAL_SET_INTERACTIVE_EXT),)
 LOCAL_CFLAGS += -DSET_INTERACTIVE_EXT
@@ -86,16 +84,14 @@ ifneq ($(TARGET_WLAN_POWER_STAT),)
     LOCAL_CFLAGS += -DWLAN_POWER_STAT=\"$(TARGET_WLAN_POWER_STAT)\"
 endif
 
-ifeq ($(TARGET_HAS_NO_WLAN_STATS),true)
 LOCAL_CFLAGS += -DNO_WLAN_STATS
-endif
 
 ifeq ($(TARGET_ARCH),arm)
 LOCAL_CFLAGS += -DARCH_ARM_32
 endif
 
-LOCAL_MODULE := android.hardware.power@1.1-service-qti
-LOCAL_INIT_RC := android.hardware.power@1.1-service-qti.rc
+LOCAL_MODULE := android.hardware.power@1.1-service.msm8937
+LOCAL_INIT_RC := android.hardware.power@1.1-service.msm8937.rc
 LOCAL_SHARED_LIBRARIES += android.hardware.power@1.1 vendor.lineage.power@1.0
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := qcom
