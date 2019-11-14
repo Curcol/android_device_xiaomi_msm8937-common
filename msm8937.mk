@@ -183,7 +183,7 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    ims-ext-common_system 
+    ims-ext-common_system
 
 PRODUCT_BOOT_JARS += \
     ims-ext-common_system
@@ -310,7 +310,15 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
-    libxml2
+    libcnefeatureconfig \
+    libxml2 \
+    rild \
+    libprotobuf-cpp-full \
+    qti_telephony_hidl_wrapper \
+    qti_telephony_hidl_wrapper.xml \
+    qti-telephony-utils \
+    qti_telephony_utils.xml \
+    ims_ext_common.xml
 
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.0 \
