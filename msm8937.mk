@@ -135,7 +135,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.0-service.xiaomi_land
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_msm8937
 
 # FM
 PRODUCT_PACKAGES += \
