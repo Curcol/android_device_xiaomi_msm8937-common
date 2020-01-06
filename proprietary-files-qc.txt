@@ -232,12 +232,12 @@ lib64/lib-imsvt.so|7dfc533fc3c439a608b219838281d6c5f605ee22
 lib64/lib-imsvtextutils.so|dc3340321ee2543bb35248d0f9dac4718116a073
 lib64/lib-imsvtutils.so|13480b644ed5290f7ddc2f7c304c0e912f416098
 lib64/libdiag_system.so|811c30efa526e8e3828b112487b1d203cca5ed6e
-product/lib64/libimscamera_jni.so
-product/lib64/libimsmedia_jni.so
+product/lib64/libimscamera_jni.so|7cb89110cca94d37d68c705f12a7a5a4ee106139
+product/lib64/libimsmedia_jni.so|e50217e9eb8878136614db66313508ac970a2b42
 lib64/librcc.so|4d732d9211e3139ed17fae059edfcd71f0e13d7e
 lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
--product/priv-app/ims/ims.apk
-product/etc/permissions/telephony_product_privapp-permissions-qti.xml
+-product/priv-app/ims/ims.apk|ce41daca328db67984843588e8bafa7e0eb53a0a
+product/etc/permissions/telephony_product_privapp-permissions-qti.xml|0536410f98ef3be8ca7630ba8e9383e41e423ceb
 vendor/bin/ims_rtp_daemon|174be7387753db4b72fa4de305edaa80fe79b6a9
 vendor/bin/imsdatadaemon|56e1ab6f6f6679261bcd36dd218097632da866b6
 vendor/bin/imsqmidaemon|0e5cf08e7cbd4e34fb69e6644a8c7d5e6715c306
