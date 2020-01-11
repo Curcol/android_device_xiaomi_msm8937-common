@@ -150,71 +150,65 @@ vendor/lib64/libxtadapter.so|d404e8c5c6e14a556926ba772ca99aa51cbd6a36
 vendor/lib64/libxtwifi_ulp_adaptor.so|58b20fbdbb500add11784acce0808c7198c96c34
 vendor/lib64/vendor.qti.gnss@1.0.so|90b465adc4542f16fbdd935d0592df73d778909b
 
-# Graphics (Adreno) - from LA.UM.8.6.r1-01900-89xx.0
-vendor/lib/egl/eglSubDriverAndroid.so|fd8988a606cec377e01127be389c98fffd0121a6 
-vendor/lib/egl/libEGL_adreno.so|3ce5d0adb97ec329fb0069295964fdcc9ece0041 
-vendor/lib/egl/libGLESv1_CM_adreno.so|7254635133cb608459f9deeed36a9d2852068714 
-vendor/lib/egl/libGLESv2_adreno.so|daee4259e15d54265240989e91d4e596b4008e42 
-vendor/lib/egl/libq3dtools_adreno.so|dcdc5c6af04432c550c71f6df204145e68a3078c 
-vendor/lib/egl/libq3dtools_esx.so|eadac5e71c56de30d581b74e201a059f1981737f 
-vendor/lib/egl/libQTapGLES.so|485477504094831f29fc9aa895efb075d26d3a1b 
-vendor/lib/libadreno_utils.so|ba50dbaf27931086e91fbf73313bf98e2b651b78 
-vendor/lib/libbccQTI.so|d1f73b42cedc9fd11f457b936bbfb48a8dd64560 
-vendor/lib/libC2D2.so|de7b00108732e11294e0b5a4156ac1a333e0c174 
-vendor/lib/libc2d30_bltlib.so|21d9b0584616dce59c92a3d825f69cefe30fef16 
-vendor/lib/libCB.so|51125d904f09dd95f339bcee9618c154a6f511c8 
-vendor/lib/libgsl.so|d7da6a1bfdf3ae420ba5c3d4430463091330430a 
-vendor/lib/libhdr_tm.so|4fab759307b36a9effe71a204151acd5a63a699f 
-vendor/lib/libllvm-glnext.so|ce82c2b8b5d4dd7d913101b7c59cbbbe77a24c3a 
-vendor/lib/libllvm-qcom.so|592de29030d7bc245e5f3e6a3d4bbe9c162148e7 
-vendor/lib/libOpenCL.so|4afbe035c27fc854280edc3c18059ef30496c69a 
-vendor/lib/librs_adreno_sha1.so|ce4902aefac94fb9d5d497729687cb805b016460 
-vendor/lib/librs_adreno.so|ba25a90ae42d2f451028bf63fdf6909840d699c7 
-vendor/lib/libRSDriver_adreno.so|eab645758266413ce0b915e1155458f4b759541d 
-vendor/lib/libscalar.so|7eb9864f82f5ffeb26ba548919c4812d1412b89e 
-vendor/lib64/egl/eglSubDriverAndroid.so|438e77641bdea3e3a02678c2e57801c2c75e118d 
-vendor/lib64/egl/libEGL_adreno.so|2900dc9d9647b40e85bb7847629526771978eb40 
-vendor/lib64/egl/libGLESv1_CM_adreno.so|b63ec70c3e72f7f655223d7c111c7c2d82ccd3cd 
-vendor/lib64/egl/libGLESv2_adreno.so|3105b4666d2d2f0fb244ff39c7193969c171eb5f 
-vendor/lib64/egl/libq3dtools_adreno.so|14f0c59216408199db6ce349a57ff82d2036d8e2 
-vendor/lib64/egl/libq3dtools_esx.so|018fe1485dda0596d30f0daae6709dbfca081f9b 
-vendor/lib64/egl/libQTapGLES.so|c0c6180e1ac8c6e9e46fb1b0aa8d7914a3f0c594 
-vendor/lib64/libadreno_utils.so|0d357f83fb4cc3db12ad88a333b0f375ff2ad69e 
-vendor/lib64/libbccQTI.so|c08e972155990ca8d42c099627b1851bf7800ed2 
-vendor/lib64/libC2D2.so|6dd2e3d9462b2e3cef99411ff4260fa0c29206ec 
-vendor/lib64/libc2d30_bltlib.so|4c753a01f78dae80bd6e312b9a21a9933cca5db6 
-vendor/lib64/libCB.so|2970f7850061d7d50f0f6aff05275f75b603eb38 
-vendor/lib64/libgsl.so|fa7a6bc991a689e76dfb592fe662c9489d9d4774 
-vendor/lib64/libhdr_tm.so|7913de28c6e258cab36cbff59ee943e9d0c14994 
-vendor/lib64/libllvm-glnext.so|825f478e1162ce8f8487a1f5618fcd7dd6dc6ea2 
-vendor/lib64/libllvm-qcom.so|ccdf3e03446d18fbad9c30327a8978c95fb6d7f5 
-vendor/lib64/libOpenCL.so|88c812426cae42ecf0fccd72a62d38dda5ded00b 
-vendor/lib64/librs_adreno_sha1.so|68072f7dfd43e8d7690c84bec208ab9ca8f23c77 
-vendor/lib64/librs_adreno.so|1b894b53ef85039b6119f2d48820978192e3aeed 
-vendor/lib64/libRSDriver_adreno.so|3ef770583adf464d3faed3b0cf6a4b05ac99d6f7
-vendor/lib64/libscalar.so|d7cb68b0c3269bc8750646cfcf659973ac97c5b1
+# Graphics - from LA.UM.8.6.2.r1-03700-89xx.0
+lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|f3a783ad3f46550dca9923885d82e5bb8f6cdd27 
+lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so|da816cb940207276e2d9417931f5fda1ecc9b8af 
+vendor/lib/egl/eglSubDriverAndroid.so|68e21c4202561e16bdade5d17a02531c6fe9b9f8 
+vendor/lib/egl/libEGL_adreno.so|7922a3ab0ceb8ed5baf8b4a00b894c79464329bc 
+vendor/lib/egl/libGLESv1_CM_adreno.so|027a5aeaabfadf4091be9323b60a3210c7a66652 
+vendor/lib/egl/libGLESv2_adreno.so|2a790aefaa161057fbb26e0008ce7cb8c2b5abd7 
+vendor/lib/egl/libQTapGLES.so|dba7fbf2fc3cda65a743fa2de663c713dc1011b1 
+vendor/lib/egl/libq3dtools_adreno.so|64a6b279a034b4a7d862518dcd61328507858c76 
+vendor/lib/hw/vulkan.msm8953.so:vendor/lib/hw/vulkan.msm8937.so|bf45cf35de93d8d7fe05c55f73f7e783803e7a71 
+vendor/lib/libC2D2.so|d9209c6bbc27f9186181cec2153a20da0de68e51 
+vendor/lib/libCB.so|bc5258134a38f07ee90c7a66e2275e064e917789 
+vendor/lib/libOpenCL.so|ba21b66d9caa078c529cc497482018fbffce54af 
+vendor/lib/libRSDriver_adreno.so|4e2e9eb72467bce2d8a1e6d1a5ab7f8eb4861a2d 
+vendor/lib/libadreno_utils.so|55129bcbeb6963e40f3fefb9e0164fca2eaa08eb 
+vendor/lib/libbccQTI.so|3e0f6963938b63ff8c10921462410a09e6dea5c2 
+vendor/lib/libc2d30_bltlib.so|05b11e803d758ed0b52567d0e8a0e4b68a768405 
+vendor/lib/libgsl.so|36e89400f3684813276a9263c930b4703b6b9c3b 
+vendor/lib/libhdr_tm.so|f1d9566f7c6bb92521b86fcbd03b76b1375b3d15 
+vendor/lib/libllvm-glnext.so|fbaea67d81d87ce447f5c6ef0b6ba02bd7a3ee1d 
+vendor/lib/libllvm-qcom.so|8a96fc2e1f51442327ef93797d8fb85b2769b9a7 
+vendor/lib/libmm-hdcpmgr.so|fe151b56e2cbe2ca9eb624d911808eb287fea483 
+vendor/lib/librs_adreno.so|5242c974a6bf83759cf042f9e4075bcd24ebc5af 
+vendor/lib/librs_adreno_sha1.so|baae82ba5d188fd4e4a5ba7200c837a25ef343ba 
+vendor/lib64/egl/eglSubDriverAndroid.so|aee34989adb4d6ad70ff6500216cd6b6a5d0adb6 
+vendor/lib64/egl/libEGL_adreno.so|028b973e22c117821f1d9b32ab6e9c4429192d60 
+vendor/lib64/egl/libGLESv1_CM_adreno.so|140762b69288094adebd9b59d914be80e6726ce2 
+vendor/lib64/egl/libGLESv2_adreno.so|cd0c05beb1c2213a9ce5367a454bcebbd36f4539 
+vendor/lib64/egl/libQTapGLES.so|9ac32590bdb898a526ef1dd6667ae1c4581349ec 
+vendor/lib64/egl/libq3dtools_adreno.so|8d574ba29633ef45306f6e0aeaf09181e569812a 
+vendor/lib64/hw/vulkan.msm8953.so:vendor/lib64/hw/vulkan.msm8937.so|e2e1c7ade006aa372df00a7f191ed6cc1a56a9e2 
+vendor/lib64/libC2D2.so|c925fc9b50e5060b8115fca49bee7fc6b8166425 
+vendor/lib64/libCB.so|f4817933186676664a50c78b9e2e54cbf10aab6e 
+vendor/lib64/libOpenCL.so|0dfd7eab729d57fbc8b3214dda04f0a4b198e0b4 
+vendor/lib64/libRSDriver_adreno.so|abe399b745f31bea94739a208ce27a56811d4255 
+vendor/lib64/libadreno_utils.so|13f2bfe976ab85d6672ff240a175020f807bac36 
+vendor/lib64/libbccQTI.so|65102dd4f4c9df11f30f0f6d72f7c021799f7017 
+vendor/lib64/libc2d30_bltlib.so|52426726a512ea4562d7431efbe06bd555542429 
+vendor/lib64/libgsl.so|9d5a0612bcab9a7357239a323628b859fb9f27c5 
+vendor/lib64/libhdr_tm.so|208637299f17b43013b88f5e5538c562b54ad644 
+vendor/lib64/libllvm-glnext.so|ce0f154e6d3f39bbbb142686a10f632109af2caa 
+vendor/lib64/libllvm-qcom.so|f9e4173b36ba354c2671fc6dfe974fac7aaf727b 
+vendor/lib64/libmm-hdcpmgr.so|6929f0f7feaceb9a6d71ea6c0a0b7851d7934e04 
+vendor/lib64/librs_adreno.so|c60de02ed47887f1e7e64f67ec40429ac5286e66
+vendor/lib64/librs_adreno_sha1.so|3fe3528fe6958db0d46144441996c06ddce4027c
 
-# Graphics (HDR) - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib/libhdr_tm.so|8060a5d9ed0283c7b89716165ba8af4b86ef0210
-vendor/lib64/libhdr_tm.so|df15d487e73560f81017bcf4a73c28c9697b1ed9
-
-# Graphics (SDM) - LA.UM.7.5.r1-03700-8x96.0
-vendor/lib/libscalar.so|cad128a6e71195b4ad38494bc0382bf80e1fb0b2
-vendor/lib/libsdm-color.so|b13ab5f965f5bb8f40207879415cb1adbb55da42
-vendor/lib/libsdm-diag.so|e2e3a0fba39190c58bafa0568e8cd51b391b71b6
--vendor/lib/libsdm-disp-vndapis.so|6c4233ea3676643bc9658c25cfad7edd45c49362
-vendor/lib/libsdmextension.so|a8659e7e0df5f1e20266ede1331da0660e0fe260
-vendor/lib/libtinyxml2_1.so|3882fddae942997be6ad6af789cf209fa45e61b3
-vendor/lib64/libscalar.so|490cc7447863b3279771ad99e92a5625525db055
-vendor/lib64/libsdm-color.so|9bb3f5147c277eae08c7f918e7de3bd2fccf1f74
-vendor/lib64/libsdm-diag.so|7ab5d2a980029ac9bd20fe68656823b21e483e11
--vendor/lib64/libsdm-disp-vndapis.so|6ae24866bbd413ed112778650c8fd7a2631cb1a9
-vendor/lib64/libsdmextension.so|e91aaf852df780e42bb083c3089f5b42c87c49f7
-vendor/lib64/libtinyxml2_1.so|b743b93bbb47bb2d80322fcfb985b7b8c696fa1b
-
-# Graphics (Vulkan) - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib/hw/vulkan.msm8953.so:vendor/lib/hw/vulkan.msm8937.so|6259874ee4fe1a414b5e2109ec63af55a70d3733
-vendor/lib64/hw/vulkan.msm8953.so:vendor/lib64/hw/vulkan.msm8937.so|e1905916771354829868a65e6757615c7de20b71
+# Graphics (SDM) - from LA.UM.8.6.2.r1-03700-89xx.0
+vendor/lib/libscalar.so|5793dfa5d29a20e123de2afb2691713f5cb75c74 
+vendor/lib/libsdm-color.so|4dc7a8c90521c45b3e25623985cf4486e6fb7b57 
+vendor/lib/libsdm-diag.so|6b8ddfbf870f329ca9e9fb50c3e9cb1a54bbb6ab 
+-vendor/lib/libsdm-disp-vndapis.so|5b5ab2404541a8e3fd97a4e600bc34e7f3e2e56c 
+vendor/lib/libsdmextension.so|6b232c519ae916405d2781b1a821ae3347f3c38b 
+vendor/lib/libtinyxml2_1.so|58932a10e8e410dc7b263bc36b5c89e37623059a 
+vendor/lib64/libscalar.so|43cb8279a855796d26dedb41efcb0f16b6ad7394 
+vendor/lib64/libsdm-color.so|f465d382260baed2d2f326ca663e03cccd73a0b7 
+vendor/lib64/libsdm-diag.so|4ec7f55fd8a4a1a316282be57e1d5c1a3a20660d 
+-vendor/lib64/libsdm-disp-vndapis.so|b04cd604137e52f4f9bb372db01884106da9834a 
+vendor/lib64/libsdmextension.so|9d4a0618defa62b182533def624bc7d2496844cd
+vendor/lib64/libtinyxml2_1.so|5eaa71107c3ac981774b523a761246aa18a6a5cf
 
 # Graphics firmware - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 vendor/firmware/a530_gpmu.fw2|706da8d5ee565dcf456341f805ee75a40773f65a
@@ -273,32 +267,36 @@ vendor/lib/hw/sound_trigger.primary.msm8953.so:vendor/lib/hw/sound_trigger.prima
 vendor/lib/libadpcmdec.so|eeaef8dd6cad3da613860bb263f192cda56c60b6
 vendor/lib/libsmwrapper.so|58dcf09adcbe6c851417e1569a120ac2e5e64a9d
 
-# Media - from CAF - LA.UM.8.6.r1-01900-89xx.0
-lib/extractors/libmmparserextractor.so|41d5ee2c7f76f21f7566956ad0a490f6927c2f95 
-lib/libFileMux.so|79661e6dffc90234ad446641264fd0fa1a3fe6ab 
-lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152 
-lib/libmmparser_lite.so|b1b4161b7097f5feeff0f043e8b94cd94553e4ad 
-lib/libOmxMux.so|2803ebee03e8372844a278f8ee637c6226e33139 
-lib64/libmmosal.so|9ceff2581e86d32bc2795dffb96ebe4bdc88f2f7 
--vendor/lib/libgpustats.so|e1ffdfcdd7c03b9fb9de7b95e76541780ec34a1e 
-vendor/lib/libI420colorconvert.so|309927237aa3e17ae4294a5012df293a03f93121 
-vendor/lib/libmm-color-convertor.so|4191173950988206b70d14c4e25f911a1bd6abd9 
-vendor/lib/libmmosal_proprietary.so|4b0788590e1ecfccd3b20b3181a4add528acb2b6 
-vendor/lib/libOmxAacDec.so|8e10de2b6ce36f611268dcb2b3f0ee9f6e4862e6 
-vendor/lib/libOmxAlacDec.so|dc149a80c341aeccfc908f2d90d3f3f0eb2194e8 
-vendor/lib/libOmxAlacDecSw.so|e2e9c926434e1a34b82b92831d231b203b68c10a 
-vendor/lib/libOmxAmrDec.so|e8991419794c7a1d75e41761f768cb83e0afc26c 
-vendor/lib/libOmxAmrwbplusDec.so|aa55931f0a5b6265c83ab92172ae57881ddb0b4f 
-vendor/lib/libOmxApeDec.so|0ab0a081606c73e6b5fa5ac59e25b7cfc81d7c82 
-vendor/lib/libOmxApeDecSw.so|a780d0080b6f9e180070393838882e164fc1efe8 
-vendor/lib/libOmxDsdDec.so|9a6a3621e2e07db7881712536cc4ef0433515199 
-vendor/lib/libOmxEvrcDec.so|7ac2ca1c4f6aa5c31b1e54be9f82b6128bcc6c50 
-vendor/lib/libOmxG711Dec.so|dde0ae7ee761e7faddba9c6e7fcf536ac523add5 
-vendor/lib/libOmxQcelp13Dec.so|c19e3495cf9c300ffd802c5270cb88adf2ddba7d 
-vendor/lib/libOmxVideoDSMode.so|f3f96d9ba16ebda2d3e9d5a726010d9356d3d0ac 
-vendor/lib/libOmxWmaDec.so|c1d071accf3eacd7c69e6d07765e14494754ff60 
-vendor/lib/libvqzip.so|9cb3212b118b6626918850abc907c41d1b819ac4
--vendor/lib64/libgpustats.so|7f884a3e4ddc6f7016120ab9aed952f1261e210f
+# Media - from LA.UM.8.6.2.r1-03700-89xx.0
+vendor/lib/libI420colorconvert.so|b5edd6f3042dcada42ae5e22b606228579321b35 
+vendor/lib/libmmosal_proprietary.so|ba8ad81125a8c64795355586809330f9aed91b27 
+vendor/lib/libOmxAacDec.so|2c25637c4f522f34773f8a2f46ad7db2ee3b91a3 
+vendor/lib/libOmxAlacDec.so|4444b8126c5b55964ff5ec6613014f7be05c30d7 
+vendor/lib/libOmxAlacDecSw.so|508913a326ffd926efc08e31f2c74335521a2aa9 
+vendor/lib/libOmxAmrDec.so|baf5c4587a14a0d21f1620d4a29d21f5770667c3 
+vendor/lib/libOmxAmrwbplusDec.so|92f49d4816a1a02e7ff882dbfe8e9726b6b54297 
+vendor/lib/libOmxApeDec.so|77e4386df73c4db1c489dd456be123225db2a869 
+vendor/lib/libOmxApeDecSw.so|d6a416b2525ea866e43c552b6688e5cebd5b55a5 
+vendor/lib/libOmxEvrcDec.so|5d1b026996c0723fd6d011db003e4b0e87a95336 
+vendor/lib/libOmxQcelp13Dec.so|71a257d154f9bfc8c61005da750ce5171dfc7c4a 
+vendor/lib/libOmxVideoDSMode.so|ec2daa755b657d110659320a58b5a551becf1b81 
+vendor/lib/libOmxWmaDec.so|6b7c94210e0627f8f67094070ee1f153d73bd991 
+-vendor/lib/libgpustats.so|489e4b72a084a09daee4f8b49688b75622d8e46e 
+vendor/lib/libmm-color-convertor.so|0ac3cb398fa83b3fc7bf8ee242514a67c0bc78ef 
+vendor/lib/libvqzip.so|1b1015980361f95e3f60b54b4e386339a3212fc1 
+vendor/lib64/libI420colorconvert.so|c84b596581cb3533e3c59cebd8705d1aca08a3f2 
+vendor/lib64/libOmxAacDec.so|680097db252db708fd63b067abcbf5aa21a4bb9a 
+vendor/lib64/libOmxAlacDec.so|dfd516c05328c95c7daf66a2511ab70f4c5c977e 
+vendor/lib64/libOmxAlacDecSw.so|955cf1046712e6b7322deade600e9a330a597e50 
+vendor/lib64/libOmxAmrDec.so|f691dae90c14a70ca6b201d728d791aa96993f86 
+vendor/lib64/libOmxAmrwbplusDec.so|4adf4a1f85352d11a2b3940b18b6276c0dbfb9ee 
+vendor/lib64/libOmxApeDec.so|e4d55b3db707ea28640f3075db6145c429e0d737 
+vendor/lib64/libOmxApeDecSw.so|d6b5ae0ed342d41554a213d0190ba218e9542e19 
+vendor/lib64/libOmxEvrcDec.so|e5e75a82b616ad0426302e319a0175e21ad5febe 
+vendor/lib64/libOmxQcelp13Dec.so|a787083daeeadd738d1fded2f2e4cc28bc916b22 
+vendor/lib64/libOmxWmaDec.so|d1adb0e250ec1d9b2dff87cd4e5f6cf047637c37 
+-vendor/lib64/libgpustats.so|0a46526b9659830b93413db57c6d12f4e9c687d2
+vendor/lib64/libmm-color-convertor.so|468dba5a98ea982fc07977a9d5afba1f3180f23f
 
 # Media OMX - from TA-1025_00WW 8.1.0 OPR1.170623.026
 vendor/lib/libMpeg4SwEncoder.so|971eb18b4209287f7c078c082508ebc46c11de0e
@@ -434,10 +432,12 @@ vendor/lib/libthermalclient.so|523476e106337823696f0600b48f057d8c629465
 vendor/lib64/libthermalclient.so|796c3e071fe9d6fa57598e1205a762cb55720f88
 vendor/lib64/libthermalioctl.so|6eed5b8ca6989809eac27abd4af19bbd6f3845ee
 
-# Time services - from CAF - LA.UM.8.6.r1-01900-89xx.0
--vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/lib64/libtime_genoff.so
+# Time services - from LA.UM.8.6.2.r1-03700-89xx.0
+-vendor/app/TimeService/TimeService.apk|c935b678fdaed033513f044f6492361c3370f9f0 
+vendor/bin/time_daemon|1a65b0cb7d6953b07820bb012550f73f16898796 
+vendor/etc/init/init.time_daemon.rc|edb18291351eb7efcb597d33c2c7f2d9bb7328a9 
+-vendor/lib/libtime_genoff.so|d140c8f7772f5218557193058eee8c34a7d0e19a
+-vendor/lib64/libtime_genoff.so|253aca0fe9ca844886b0ae80d9816f80017a1880
 
 # Widevine - from daisy - PKQ1.180917.001.V10.0.1.0.PDLMIFJ
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine|9743c4ecd0fb8773795bcbfbb406f25616c04129
