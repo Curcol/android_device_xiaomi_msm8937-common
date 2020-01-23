@@ -78,6 +78,9 @@ QCOM_BT_USE_SMD_TTY := true
 # Build
 BUILD_BROKEN_DUP_RULES := true
 
+# EAP-SIM security
+DISABLE_EAP_PROXY := true
+
 # Camera
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /vendor/bin/mm-qcamera-daemon=23
