@@ -420,9 +420,9 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/wifi/firmware/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_cfg.ini
 
 PRODUCT_COPY_FILES += \
-    $(VENDOR_PATH)/configs/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
-    $(VENDOR_PATH)/configs/hostapd.accept:system/etc/hostapd/hostapd.accept \
-    $(VENDOR_PATH)/configs/hostapd.deny:system/etc/hostapd/hostapd.deny
+    $(VENDOR_PATH)/wifi/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+    $(VENDOR_PATH)/wifi/hostapd.accept:system/etc/hostapd/hostapd.accept \
+    $(VENDOR_PATH)/wifi/hostapd.deny:system/etc/hostapd/hostapd.deny
 
 # WiFi Display
 PRODUCT_BOOT_JARS += \
