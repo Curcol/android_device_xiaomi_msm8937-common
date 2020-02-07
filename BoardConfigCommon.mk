@@ -185,18 +185,9 @@ DISABLE_RILD_OEM_HOOK := true
 PROTOBUF_SUPPORTED := true
 
 # SELinux
-TARGET_EXCLUDE_QCOM_SEPOLICY := true
-
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-#   $(VENDOR_PATH)/sepolicy/private \
-#   $(VENDOR_PATH)/sepolicy/vendor \
-    device/qcom/sepolicy/generic/private \
-    device/qcom/sepolicy/qva/private
-
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/qcom/sepolicy/generic/public \
-    device/qcom/sepolicy/qva/public
-
+include device/qcom/sepolicy/sepolicy.mk
+#BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
+#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy-tmp
 
 # Treble
