@@ -22,7 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(VENDOR_PATH)/overlay
+    $(VENDOR_PATH)/overlay \
+    $(VENDOR_PATH)/overlay-pa
 
 # Properties
 -include $(VENDOR_PATH)/vendor_prop.mk
